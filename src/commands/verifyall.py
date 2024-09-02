@@ -124,7 +124,7 @@ async def cancel_progress(ctx: CommandContext, custom_id: ProgressCustomID):
 
 @bloxlink.command(
     category="Premium",
-    premium=True,
+    premium=false,
     defer=True,
     permissions=hikari.Permissions.MANAGE_GUILD | hikari.Permissions.MANAGE_ROLES,
     accepted_custom_ids={
